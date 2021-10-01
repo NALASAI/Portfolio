@@ -1,0 +1,317 @@
+*{margin: 0; padding: 0;}
+
+body{
+    color:#333;
+    width: 100%;
+    height: 5000px;
+}
+
+/* 퀵 메뉴 */
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+}
+
+header .quick{
+    margin: 0 auto;
+    margin-top:20px;
+    width: 500px;
+}
+
+header li{
+    display:inline-block;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: -5px;
+}
+
+header a{
+    color:rgb(172, 150, 120);
+    text-decoration: none;
+}
+
+main{
+    width: 1920px;
+    height: 4380px;
+    background: rgb(172, 120, 120);
+}
+
+/* 인트로 */
+
+.first{
+    display:flex;
+    width: 100%;
+    height: 1080px;
+    background-image: url("/images/intro_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.first .first_in{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+    line-height: 300px;
+}
+.first .first_in > img{
+    float: left;
+    width: 400px;
+    height: 400px;
+    border-radius: 30%;
+}
+
+.first .first_in .intro{
+    margin-left: 50%;
+    font-size: 35px;
+    color: #ccc;
+    font-style: inherit;
+}
+
+/* about */
+
+.about{
+    margin-top: 20px;
+    display:inline-block;
+    width: 100%;
+    height: 1080px;
+    background-image: url("/images/about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.about .about_title{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    line-height: 160px;
+    font-size: 40px;
+}
+
+.about .about_group{
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+}
+.about .about_group > div{float: left;}
+
+.about .about_box1{
+    width: 25%;
+    height: 900px;
+    background-color: aqua;
+}
+
+.about_box1 > h3{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about_box1 .people{
+    width: 75%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid #000;
+    border-radius: 30%;
+    background-color: #fff;
+}
+
+.about_box1 .people > ul{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 80%;
+}
+
+.about .about_box2{
+    width: 25%;
+    height: 900px;
+    background-color: yellow;
+}
+
+.about_box2 > h3{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about_box2 .school{
+    width: 75%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid #000;
+    border-radius: 30%;
+    background-color: #fff;
+}
+
+.about .about_box3{
+    width: 25%;
+    height: 900px;
+    background-color: green;
+}
+
+.about_box3 > h3{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about_box3 .career{
+    width: 75%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid #000;
+    border-radius: 30%;
+    background-color: #fff;
+}
+
+.about .about_box4{
+    width: 25%;
+    height: 900px;
+    background-color: orange;
+}
+
+.about_box4 > h3{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about_box4 .nature{
+    width: 75%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid #000;
+    border-radius: 30%;
+    background-color: #fff;
+}
+
+/* 스킬 */
+
+.skill{
+    margin-top: 20px;
+    display:inline-block;
+    width: 1920px;
+    height: 1080px;
+    background-image: url("/images/skill.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.skill .skill_title{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    line-height: 160px;
+    font-size: 40px;
+}
+
+.skill .skill_group{
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.skill .skill_group > div{
+    float: left;
+}
+
+.skill .skill_box1{
+    width: 240px;
+    height: 900px;
+    background-color: aqua;
+}
+
+.skill .skill_box2{
+    width: 240px;
+    height: 900px;
+    background-color: yellow;
+}
+.skill .skill_box3{
+    width: 240px;
+    height: 900px;
+    background-color: green;
+}
+.skill .skill_box4{
+    width: 240px;
+    height: 900px;
+    background-color: orange;
+}
+.skill .skill_box5{
+    width: 240px;
+    height: 900px;
+    background-color: fuchsia;
+}
+
+/* 프로젝트 */
+
+.project{
+    margin-top: 20px;
+    display:inline-block;
+    width: 1920px;
+    height: 1080px;
+    background-image: url("/images/project.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.project .project_title{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    line-height: 160px;
+    font-size: 40px;
+}
+
+.project table{
+    width: 1600px;
+    height: 800px;
+    margin-left: 160px;
+    margin-right: 160px;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+.project tr{
+    border: 1px solid black;
+}
+
+.project td{
+    border: 1px solid black;
+    font-size: 40px;
+}
+
+/* 연락처 */
+
+footer{
+    margin-top: 20px;
+    display:inline-block;
+    width: 100%;
+    height: 220px;
+    background: cyan;
+    font-size: 40px;
+}
+
+footer .bottom{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+}
+
+footer .blog{
+    color: green;
+}
